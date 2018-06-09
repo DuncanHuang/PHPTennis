@@ -38,6 +38,9 @@ final class TennisTest extends TestCase
             ['Joey', 'Tom', 0, 2, 'Love Thirty'],
             ['Joey', 'Tom', 1, 1, 'Fifteen All'],
             ['Joey', 'Tom', 2, 2, 'Thirty All'],
+            ['Joey', 'Tom', 3, 3, 'Deuce'],
+            ['Joey', 'Tom', 4, 4, 'Deuce'],
+            ['Joey', 'Tom', 10, 10, 'Deuce'],
         ];
     }
 

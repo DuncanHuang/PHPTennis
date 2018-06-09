@@ -27,8 +27,12 @@ class Tennis
 
     public function getScore($score1, $score2)
     {
-        if ($score1 == $score2 && $score1 <= 2) {
-            return $this->score_maping[$score1] . ' All';
+        if ($score1 == $score2) {
+            if ($score1 <= 2) {
+                return $this->score_maping[$score1] . ' All';
+            } else {
+                return 'Deuce';
+            }
         }
 
         $this->result1 = $this->score_maping[$score1];
