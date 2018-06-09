@@ -21,7 +21,7 @@ final class TennisTest extends TestCase
         $game = new Tennis($player1_name, $player2_name);
 
         // Act
-        $actual = $game->getScore($score1, $score2);
+        $actual = $game->getResult($score1, $score2);
 
         // Assert
         $this->assertEquals($expected, $actual);
@@ -45,6 +45,7 @@ final class TennisTest extends TestCase
             ['Joey', 'Tom', 3, 4, 'Tom Adv'],
             ['Joey', 'Tom', 5, 6, 'Tom Adv'],
             ['Joey', 'Tom', 4, 0, 'Joey Win'],
+            ['Joey', 'Tom', 0, 4, 'Tom Win'],
             ['Joey', 'Tom', 4, 1, 'Joey Win'],
             ['Joey', 'Tom', 4, 2, 'Joey Win'],
             ['Joey', 'Tom', 5, 3, 'Joey Win'],
