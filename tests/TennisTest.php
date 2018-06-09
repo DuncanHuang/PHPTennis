@@ -43,6 +43,14 @@ final class TennisTest extends TestCase
             ['Joey', 'Tom', 10, 10, 'Deuce'],
             ['Joey', 'Tom', 4, 3, 'Joey Adv'],
             ['Joey', 'Tom', 3, 4, 'Tom Adv'],
+            ['Joey', 'Tom', 5, 6, 'Tom Adv'],
+            ['Joey', 'Tom', 4, 0, 'Joey Win'],
+            ['Joey', 'Tom', 4, 1, 'Joey Win'],
+            ['Joey', 'Tom', 4, 2, 'Joey Win'],
+            ['Joey', 'Tom', 5, 3, 'Joey Win'],
+            ['Joey', 'Tom', 3, 5, 'Tom Win'],
+            ['Joey', 'Tom', 7, 5, 'Joey Win'],
+            ['Joey', 'Tom', 10, 8, 'Joey Win'],
         ];
     }
 

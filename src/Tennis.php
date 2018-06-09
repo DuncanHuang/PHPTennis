@@ -36,11 +36,24 @@ class Tennis
         }
 
         if ($score1 >= 3 && $score2 >= 3) {
+            $score_diff = $score1 - $score2;
+            if (abs($score_diff) == 2) {
+                if ($score_diff > 0) {
+                    return sprintf('%s Win', $this->player1_name);
+                } else {
+                    return sprintf('%s Win', $this->player2_name);
+                }
+            }
+
             if ($score1 > $score2) {
                 return sprintf('%s Adv', $this->player1_name);
             } else {
                 return sprintf('%s Adv', $this->player2_name);
             }
+        }
+
+        if ($score1 == 4) {
+            return sprintf('%s Win', $this->player1_name);
         }
 
         $this->result1 = $this->score_maping[$score1];
