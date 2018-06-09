@@ -4,6 +4,14 @@ class Tennis
 {
     private $player1_name;
     private $player2_name;
+    private $score_maping = array(
+        0 => 'Love',
+        1 => 'Fifteen',
+        2 => 'Thirty',
+        3 => 'Forty'
+    );
+    private $result1;
+    private $result2;
 
     /**
      * Tennis constructor.
@@ -19,36 +27,13 @@ class Tennis
 
     public function getScore($score1, $score2)
     {
-        if ($score1 == 0 && $score2 == 0) {
-            return 'Love All';
+        if ($score1 == $score2 && $score1 <= 2) {
+            return $this->score_maping[$score1] . ' All';
         }
 
-        if ($score1 == 1 && $score2 == 0) {
-            return 'Fifteen Love';
-        }
+        $this->result1 = $this->score_maping[$score1];
+        $this->result2 = $this->score_maping[$score2];
 
-        if ($score1 == 2 && $score2 == 0) {
-            return 'Thirty Love';
-        }
-
-        if ($score1 == 3 && $score2 == 0) {
-            return 'Forty Love';
-        }
-
-        if ($score1 == 0 && $score2 == 1) {
-            return 'Love Fifteen';
-        }
-
-        if ($score1 == 0 && $score2 == 2) {
-            return 'Love Thirty';
-        }
-
-        if ($score1 == 1 && $score2 == 1) {
-            return 'Fifteen All';
-        }
-
-        if ($score1 == 2 && $score2 == 2) {
-            return 'Thirty All';
-        }
+        return sprintf('%s %s', $this->result1, $this->result2);
     }
 }

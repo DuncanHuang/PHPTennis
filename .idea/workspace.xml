@@ -17,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TennisTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TennisTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/TennisTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="679">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tennis.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tennis.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tennis.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
-              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+            <state relative-caret-position="643">
+              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/TennisTest.php" />
         <option value="$PROJECT_DIR$/src/Tennis.php" />
+        <option value="$PROJECT_DIR$/tests/TennisTest.php" />
       </list>
     </option>
   </component>
@@ -164,12 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528509138053</updated>
-      <workItem from="1528509139370" duration="824000" />
+      <workItem from="1528509139370" duration="1627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="824000" />
+    <option name="totallyTimeSpent" value="1627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="990" extended-state="6" />
@@ -210,17 +210,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TennisTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Tennis.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="643">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tennis.php">
+    <entry file="file://$PROJECT_DIR$/tests/TennisTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state relative-caret-position="679">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
